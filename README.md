@@ -47,4 +47,86 @@ Get support when chasing the car ahead or defending from the car behind, using d
 Focus on lap time with live pace, sector deltas, best lap, position, gap to pole, and session time remaining.
 <img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/bde062f9-a0f5-4502-971e-274eb596fb91" />
 
+Thought for a few seconds
 
+
+## Setup
+
+### Game Setup
+
+In **Le Mans Ultimate**, make sure plugins are allowed/enabled.
+
+Download the LMU-Race-Engineer.zip, unzip it.
+
+Put this plugin file:
+
+```txt
+rFactor2SharedMemoryMapPlugin64.dll
+```
+
+inside:
+
+```txt
+Le Mans Ultimate\Plugins
+```
+
+If the `Plugins` folder does not exist, create it.
+
+### Enable the Plugin
+
+Open this file:
+
+```txt
+Le Mans Ultimate\UserData\Player\CustomPluginVariables.JSON
+```
+
+If the folder or file does not exist, create it.
+
+Add this entry:
+
+```json
+"rFactor2SharedMemoryMapPlugin64.dll": {
+  " Enabled": 0,
+  "DebugISIInternals": 0,
+  "DebugOutputLevel": 0,
+  "DebugOutputSource": 1,
+  "DedicatedServerMapGlobally": 0,
+  "EnableDirectMemoryAccess": 0,
+  "EnableHWControlInput": 1,
+  "EnableRulesControlInput": 0,
+  "EnableWeatherControlInput": 0,
+  "UnsubscribedBuffersMask": 160
+}
+```
+
+### Start the App
+
+1. Keep these together:
+
+```txt
+LMU_Race_Engineer.exe
+voice_clips
+```
+
+2. Double-click `LMU_Race_Engineer.exe`.
+
+Keep it running during the session.
+
+3. Start **Le Mans Ultimate**.
+
+4. Click **Open Dashboard**.
+
+To use a phone or tablet, connect it to the same Wi-Fi and type the URL shown in the app window.
+
+To add it to your phone or tablet home screen:
+
+- **iPhone / iPad:** open the URL in Safari, tap **Share**, then tap **Add to Home Screen**.
+- **Android:** open the URL in Chrome, tap the menu, then tap **Add to Home screen** or **Install app**.
+
+### Voice Test
+
+Click **Test Voice Clip**.
+
+If you hear sound, voice is working.
+
+Close the app window when you are done.
