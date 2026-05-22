@@ -7,6 +7,7 @@ Stay focused on the track while the app watches the session for you, showing the
 
 From chasing the car ahead to defending from pressure behind, LMU Race Engineer helps you drive with more awareness, better timing, and less distraction.
 
+<br>
 
 ## Main Features
 
@@ -14,7 +15,10 @@ From chasing the car ahead to defending from pressure behind, LMU Race Engineer 
 
 See the key race information at a glance, including position, gaps, fuel, tyres, car settings, and nearby cars.
 
-<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/d8d2c710-7803-49f0-b523-a91f5bb1fa27" />
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/ea70df2a-7a03-4423-b465-e51c80449541" /><br><br>
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/e89262e3-3ccd-4ac4-a432-984afe2d8dfe" />
+
+<br>
 
 ### Messages and Voice Calls
 
@@ -32,23 +36,26 @@ Receive simple on-screen messages and voice calls when something important happe
 
 <img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/18bf7f45-55c9-46fc-95a2-58cb122002da" /><br>
 
-
-
+<br>
 
 ### Attack and Defend Mode
 
 Get support when chasing the car ahead or defending from the car behind, using dashboard updates, on-screen messages, and voice calls.
-<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/6e2a34ce-5485-4c92-843a-ad1a94eaf935" />
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/ec63be60-c5a5-4379-9587-6c25c8ca2226" />
 
-<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/6f793de2-e804-48a6-9abf-da2a78663e73" />
+
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/853dff62-e729-46f3-b25a-7cd3d4cef8c5" />
+
+<br>
+
 
 ### Qualifying Dashboard
 
 Focus on lap time with live pace, sector deltas, best lap, position, gap to pole, and session time remaining.
 <img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/bde062f9-a0f5-4502-971e-274eb596fb91" />
 
-Thought for a few seconds
 
+<br>
 
 ## Setup
 
@@ -58,46 +65,8 @@ In **Le Mans Ultimate**, make sure plugins are allowed/enabled.
 
 Download the LMU-Race-Engineer.zip, unzip it.
 
-Put this plugin file:
 
-```txt
-rFactor2SharedMemoryMapPlugin64.dll
-```
-
-inside:
-
-```txt
-Le Mans Ultimate\Plugins
-```
-
-If the `Plugins` folder does not exist, create it.
-
-### Enable the Plugin
-
-Open this file:
-
-```txt
-Le Mans Ultimate\UserData\Player\CustomPluginVariables.JSON
-```
-
-If the folder or file does not exist, create it.
-
-Add this entry:
-
-```json
-"rFactor2SharedMemoryMapPlugin64.dll": {
-  " Enabled": 0,
-  "DebugISIInternals": 0,
-  "DebugOutputLevel": 0,
-  "DebugOutputSource": 1,
-  "DedicatedServerMapGlobally": 0,
-  "EnableDirectMemoryAccess": 0,
-  "EnableHWControlInput": 1,
-  "EnableRulesControlInput": 0,
-  "EnableWeatherControlInput": 0,
-  "UnsubscribedBuffersMask": 160
-}
-```
+<br>
 
 ### Start the App
 
@@ -122,6 +91,24 @@ To add it to your phone or tablet home screen:
 
 - **iPhone / iPad:** open the URL in Safari, tap **Share**, then tap **Add to Home Screen**.
 - **Android:** open the URL in Chrome, tap the menu, then tap **Add to Home screen** or **Install app**.
+
+<br>
+
+### Cycle through dashboard pages
+
+The dashboard has two pages. 
+1. Pace: lap times, deltas, and rival pace comparison.
+2. Car info: tyre, brake, fuel, and car condition data.
+
+Assign a controller, wheel, or button box input in the launcher, then use that button to cycle through the dashboard pages during the session.
+
+<br>
+
+### SimHub overlay
+
+To use the dashboard as a SimHub overlay, double-click `LMU Race Engineer.simhubdash` to import it into SimHub.
+
+<br>
 
 ### Voice Test
 
